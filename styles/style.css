@@ -52,7 +52,7 @@ nav .logo {
    text-align: center;
 }
 
-#hero article {
+#hero .text-container {
     position: relative;
     top: 50%;
     left: 50%;
