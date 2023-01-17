@@ -68,3 +68,52 @@ nav .logo {
 #hero .slogan {
     font-size: 1.7em;
 }
+
+#page-content {
+    padding: 2em;
+}
+
+.section-title {
+    text-align: center;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    width: fit-content;
+    margin: 2em auto;
+    font-size: 1.5em;
+}
+
+#perks {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    font-size: 1.7rem;
+}
+
+#perks .section-title {
+    border-bottom-color: #00B172;
+}
+
+#perks .article-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+#perks article {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 25%;
+    text-align: center;
+}
+
+#perks article h3 {
+    font-size: 1.4em;
+    color:#00B172;
+    margin: 1rem 0 2rem;
+}
+
+#perks .perk-icon {
+    height: 7rem;
+}
